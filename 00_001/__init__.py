@@ -19,5 +19,14 @@ def portfolio():
 @application.route("/Contact")
 def contact():
     return render_template("contact.html")
+@application.route("/exam-login")
+@application.route("/examlogin")
+def exam_login():
+    return render_template("exam/exam-login.html")
+@application.route("/admin-login")
+@application.route("/adminlogin")
+def admin_login():
+    return render_template("admin/admin-login.html")
+
 
 application.run(debug=True,host="0.0.0.0",port=4244)

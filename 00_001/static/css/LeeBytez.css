@@ -1,11 +1,50 @@
 body{
 	margin: 0px;
 	padding: 0;
+	height: 100%;
 	font-family: sans-serif;
+	background: #eee;
 
 }
+.admin{
+	background: coral;
+}
+.admin:hover a {
+	background: white;
+	color: coral;
+}
+.admin:hover {
+	background: white;
+	color: coral;
+}
+.admin a:hover{
+	color: coral;
+}
+.exam{
+	background: coral;
+}
+.exam:hover a {
+	background: white;
+	color: coral;
+}
+.exam:hover {
+	background: white;
+	color: coral;
+}
+.exam a:hover{
+	color: coral;
+}
+
 .layout{
-	padding-top: 40px;
+position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #fff;
+	height: 655px;
+    width: 1337px;
+	box-sizing: border-box;
+	box-shadow: 0 5px 10px black;
 }
 .actives{
 	background: #e91e63;
@@ -65,10 +104,57 @@ ul li {
 .active{
 	display: block;
 }
+.cp-logo{
+	display: none;
+
+}
+.cp-logo-sm{
+	height: 33px;
+    float: left;
+}
+}
+footer[class='showfoot']
+{
+	width: 100%;
+	bottom: 0px;
+	position: fixed;
+	background-color: #00316b;
+	color: white;
+	display: inline-block;
+	height: 50px;
 
 }
 
+.flt{
+	float: right;
+	height: 50px;
+	display: inline-block;
 
 
+}
 
+.flt p{
+	float: left;
+	padding: 0px 10px 0px 20px;
+	text-transform: uppercase;
+}
+.img-style{
+	height: 24px;
+	background: white;
+	border-radius:20px ;
+}
+.cp-logo{
+	z-index: -1;
+	height: 50px;
+	float: left;
+	padding: 5px 0px 0px 30px;
 
+}
+.login{
+	float: right;
+	display: inline;
+
+}
+.btn{
+	padding: 10px;
+}
